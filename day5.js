@@ -81,17 +81,17 @@
 //     return val>90;
 // })
 // console.log(studentMarks);
-let n=prompt("enter the number: ");
-let arr=[];
-for(let i=1;i<=n;i++){
-    arr[i-1]=i;
-}
-// console.log(arr);
-const sumOutput=arr.reduce((res,curr)=>{
-    return res+curr;
-});
-console.log(sumOutput);
-const productOutput=arr.reduce((res,curr)=>{
-    return res*curr;
-});
-console.log(productOutput);
+// let n=prompt("enter the number: ");
+// let arr=[];
+// for(let i=1;i<=n;i++){
+//     arr[i-1]=i;
+// }
+// // console.log(arr);
+// const sumOutput=arr.reduce((res,curr)=>{
+//     return res+curr;
+// });
+// console.log(sumOutput);
+// const productOutput=arr.reduce((res,curr)=>{
+//     return res*curr;
+// });
+// console.log(productOutput);

@@ -1,0 +1,11 @@
+// let heading=document.getElementById("titleName");
+// console.log(heading); 
+// let heading=document.querySelector("h2");
+// console.log(heading.innerText);
+// console.dir(heading.innerText);
+// heading.innerText=heading.innerText+" from apna college";
+let divs=document.querySelectorAll(".box");
+console.log(divs);
+divs[0].innerText="I am changed";
+divs[1].innerText="I am changed";
+divs[2].innerText="I am changed";
