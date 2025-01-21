@@ -4,8 +4,8 @@
 // console.log(heading.innerText);
 // console.dir(heading.innerText);
 // heading.innerText=heading.innerText+" from apna college";
-let divs=document.querySelectorAll(".box");
-console.log(divs);
-divs[0].innerText="I am changed";
-divs[1].innerText="I am changed";
-divs[2].innerText="I am changed";
+// let divs=document.querySelectorAll(".box");
+// console.log(divs);
+// divs[0].innerText="I am changed";
+// divs[1].innerText="I am changed";
+// divs[2].innerText="I am changed";

@@ -1,16 +1,40 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form1">
+        <input type="text" name="name" id="" placeholder="Enter your name">
+        <input type="button" onclick="printValue()" value="printname" name="" id="">
+    </form>
+    <script>
+        function printValue(){
+            var name = document.form1.name.value;
+            alert("welcome "+name);
+        }
+    </script>
+</body>
+</html> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <!-- <h2>Hello Javascript</h2> -->
-   <div class="box">First div</div>
-   <div class="box">Second div</div>
-   <div class="box">Third div</div>
-    <script src="day6.js"></script>
+    <form>
+        Enter No:<input type="text" name="number" id="number" placeholder="Enter a number">
+        <input type="button" value="cube" onclick="getcube()">
+    </form>
+    <script>
+        function getcube(){
+            let number=document.getElementById("number").value;
+            alert("cube of "+number+" is "+number*number*number);
+        }
+    </script>
 </body>
 </html>
