@@ -1,2 +1,33 @@
-let para=document.querySelector("p");
-console.log(para.setAttribute("class", "newClass"));
+// let div=document.querySelector('div');
+// div.style.backgroundColor='red';
+// div.style.fontSize='20px';
+// div.innerHTML='Hello World';
+// div.style.visibility='hidden';
+//creating button
+// let newbtn=document.createElement('button');
+// newbtn.innerHTML='Click Me';
+// console.log(newbtn);
+// let div=document.querySelector('div');
+// div.append(newbtn);
+// let newbtn=document.createElement('button');
+// let div=document.querySelector('div');
+// newbtn.innerHTML='Click Me';
+// console.log(newbtn);
+// div.after(newbtn);
+// let newHeading=document.createElement('h1');
+// newHeading.innerHTML='This is a new heading';
+// document.querySelector('div').before(newHeading);
+// let newDiv=document.querySelector("div");
+// newDiv.remove();
+let newButton=document.createElement('button');
+newButton.innerHTML='Click Me';
+newButton.style.backgroundColor='red';
+newButton.style.color='white';
+newButton.style.fontSize='20px';
+console.log(newButton);
+let body=document.querySelector('body');
+body.prepend(newButton);
+//  Q2
+let para=document.querySelector('p');
+para.classList.add("newClass");
+para.classList.remove("newClass");

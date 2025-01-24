@@ -1,7 +1,8 @@
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border: 1px solid black;
-    margin: 10px;
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
 }
