@@ -3,13 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Guessing Number challenge</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background: yellowgreen;
+        }
+        .parents{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 300px;
+        }
+        form input{
+            padding: 10px 10px;
+        }
+        div button{
+            margin-top: 10px;
+            margin-left: 70px;
+            padding: 10px 10px;
+        }
+        div button:hover{
+            background-color: rgb(139, 63, 63);
+        }
+    </style>
 </head>
 <body>
-    <button id="btn1">Dark Mode</button>
-    <script src="day8.js">
-
+    <div class="parents">
+        <h1>Number Guessing Challege</h1>
+        <p>Guess the number between 1 to 10</p>
+        <form>
+            <input type="text" id="nameGuess" name="guess" placeholder="Enter your guess">
+            <div>
+                <button type="submit" onclick="myFunction()">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        function myFunction(){
+            let x=document.getElementById("nameGuess").value;
+            if(x>=1 || x<=10){
+                alert("the number is less than 10");
+            }
+            else{
+                alert("the number is between 1 and 10");x
+            }
+        }
     </script>
 </body>
 </html>
